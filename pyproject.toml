@@ -1,5 +1,5 @@
 [project]
-name = "my-d2l"
+name = "d2l-codebase"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
