@@ -2,7 +2,7 @@ import torch
 from torch import nn, optim
 from torch.utils.data import DataLoader, TensorDataset
 
-from my_utils.data_gen import synthetic_data
+from my_utils.data import synthetic_data
 
 
 def main():

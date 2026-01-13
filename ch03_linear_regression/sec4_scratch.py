@@ -4,7 +4,7 @@ from collections.abc import Iterator
 import torch
 from torch import Tensor
 
-from my_utils.data_gen import synthetic_data
+from my_utils.data import synthetic_data
 
 
 def data_iter(batch_size: int, features: Tensor, labels: Tensor) -> Iterator[tuple[Tensor, Tensor]]:
